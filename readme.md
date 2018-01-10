@@ -3,7 +3,7 @@
 ### 简介
 webpack 是一个模块打包器。它的主要目标是将 JavaScript 文件打包在一起，打包后的文件用于在浏览器中使用，但它也能够胜任转换(transform)、打包(bundle)或包裹(package)任何资源(resource or asset)。(from https://www.webpackjs.com/)
 
-##搭建环境
+## 搭建环境
 前端代码需要被打包到两个环境中：开发环境和生产环境。
 
 首先创建一个webpack.base.conf.js文件。这个文件用来存放生产环境和开发环境都会用到的配置
